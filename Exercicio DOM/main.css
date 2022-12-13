@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;    
+}
+
+.container{
+    display: block;
+    padding: 10px;
+    border: 2px solid black;  
+    justify-content: center;
+    width: 200px;
+}
+
+.submit-form input, button{
+    display: block;
+    margin-top: 8px;   
+}
+#number1{
+    margin-bottom: 8px;
+}
+.success-message{
+    padding: 16px;
+    background-color: green;
+    color: white;
+    display: none;
+
+  
+}
+
+.error-message{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-bottom: 8px;
+    font-size: 12px;
+    display: none;
+}
