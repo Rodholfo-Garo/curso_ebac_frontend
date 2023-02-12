@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <fieldset>
+            <legend>Formulario de Tarefas</legend>
+            <header>
+                <h1>Lista de Tarefas</h1>
+                <p>Gerencie suas Tarefas</p>
+                <button id="Inserir" type="submit">Inserir Tarefas</button>
+            </header> 
+            
+            <div id="tarefas">              
+                <form>                
+                    <input id="novaTarefa" type="text" name="Tarefa"  required>
+                    <label for="Tarefa" class="labelInput">Nova Tarefa</label>
+                    <button id="OcultarTarefa"type="submit">Adicionar +</button>
+                </form>             
+            </div>
+
+            <ul>
+                <li></li>
+            </ul>
+
+        </fieldset>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
